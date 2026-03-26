@@ -1,0 +1,13 @@
+{
+  "name": "clauditics",
+  "owner": {
+    "name": "clauditics"
+  },
+  "plugins": [
+    {
+      "name": "clauditics",
+      "source": "./plugin",
+      "description": "Per-user token usage analytics for Claude Code teams"
+    }
+  ]
+}

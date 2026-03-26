@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:e2e": "jest scripts/__tests__/e2e-claude.test.js --testTimeout=65000 --forceExit"
   },
   "devDependencies": {
     "jest": "^29.0.0"
