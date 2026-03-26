@@ -1,0 +1,8 @@
+{
+  "name": "clauditics",
+  "private": true,
+  "workspaces": ["plugin", "dashboard"],
+  "scripts": {
+    "test": "npm run test --workspaces"
+  }
+}
