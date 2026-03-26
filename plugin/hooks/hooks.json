@@ -1,0 +1,11 @@
+{
+  "_note": "This file is a reference. Actual hooks are installed by /clauditics:setup into ~/.claude/settings.json",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "node \"${HOME}/.clauditics/scripts/session-start.js\"" }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "node \"${HOME}/.clauditics/scripts/session-stop.js\"" }] }
+    ]
+  }
+}

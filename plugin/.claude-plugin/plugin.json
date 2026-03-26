@@ -1,0 +1,6 @@
+{
+  "name": "clauditics",
+  "description": "Per-user token usage analytics for Claude Code teams",
+  "version": "1.0.0",
+  "author": { "name": "clauditics" }
+}
