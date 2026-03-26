@@ -15,9 +15,14 @@ No data leaves your machine unless you choose team mode and run your own dashboa
 
 ## Installation
 
-Clauditics is a Claude Code plugin. Install it by running `/plugins install` inside Claude Code and pointing it at this repo.
+Clauditics is a Claude Code plugin. Add it from the marketplace:
 
-Once installed, run the setup wizard:
+```
+/plugin marketplace add amit221/clauditics
+/plugin install clauditics@clauditics
+```
+
+Then run the setup wizard:
 
 ```
 /clauditics:setup
